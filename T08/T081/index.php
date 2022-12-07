@@ -6,11 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>T081</title>
-    <style>
-        td{
-            border: 1px black solid;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -23,11 +19,12 @@
         <tr>
             <td>Trojan Bogacki</td>
             <td>3pir_02</td>
-            <td>23.11.2022</td>
+            <td>29.11.2022</td>
         </tr>
     </table>
 
     <h1>Zadanie T081</h1>
+    <p>Napisz funkcję, która dla podanej liczby zwraca (return) jej wartość bezwzględną i zastosuj tę funkcję do wyświetlenia wyniku. Do obliczenia wartości bezwzględnej użyj instrukcji warunkowej (wariant 1) i operatora warunkowego "?" (wariant 2).</p>
     <form method="post" action="">
         <label for="bezw">Wartość bezwzględna: </label>
         <input type="text" name="bezw">
