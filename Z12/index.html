@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Z12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Formularz do tworzenia butów</h1>
+    <p>Stwórz własne buty</p>
+
+
+    <form method="post" action="kod.php">
+        <label for="i">Imię</label> <input type="text" name="i"> <br>
+        <label for="n">Nazwisko</label> <input type="text" name="n"> <br>
+        <label for="klasa">Klasa</label> <input type="text" name="klasa"> <br>
+        <label for="opinia">Opinia dla organizatorów</label> <textarea name="opinia"></textarea> <br> <br>
+
+        <input type="radio" name="op" value="dobrze zorganizowany"> dobrze zorganizowany <br>
+        <input type="radio" name="op" value="w miarę dobrze zorganizowany">  w miarę dobrze zorganizowany  <br>
+        <input type="radio" name="op" value="średnio zorganizowany">  średnio zorganizowany <br>
+        <input type="radio" name="op" value="źle zorganizowany"> źle zorganizowany<br> <br>
+
+        <input type="checkbox" name="co_wygrac" value="Czekolada"> Czekolada <br>
+        <input type="checkbox" name="co_wygrac" value="Stary telefon"> Stary telefon<br>
+        <input type="checkbox" name="co_wygrac" value="Ołówek">  Ołówek <br>
+        <input type="checkbox" name="co_wygrac" value="Długopis"> Długopis <br>
+
+        <input type="submit" value="prześlij">
+
+    </form>
+
+
+
+</body>
+</html>
