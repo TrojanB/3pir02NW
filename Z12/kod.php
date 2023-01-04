@@ -1,7 +1,7 @@
 <?php
     $imie = $_POST['i'];
     $nazwisko = $_POST['n'];
-    $klasa = $_POST['klasa'];
+    $klasa = ['klasa'];
     $op = $_POST['op'];
 
     echo "<h1>Podane dane to: </h1> <br>";
